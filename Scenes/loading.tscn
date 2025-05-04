@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://biaad8rv5a4yn"]
+
+[ext_resource type="Texture2D" uid="uid://b5ca6fuiqyo6s" path="res://Assets/ui/menu-ui.jpg" id="1_k66n3"]
+[ext_resource type="Theme" uid="uid://cr3lq5dlednv3" path="res://Assets/ui/menu_theme.tres" id="2_31xe0"]
+
+[node name="Loading" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Loading" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Loading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_k66n3")
+
+[node name="Label" type="Label" parent="Loading"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -94.0
+offset_top = -20.0
+offset_right = 94.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_31xe0")
+text = "CONNECTING..."

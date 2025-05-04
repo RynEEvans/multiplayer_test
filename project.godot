@@ -15,6 +15,10 @@ run/main_scene="uid://rgp1rak42ver"
 config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/image="uid://ctyu2x1mykuoq"
 
+[autoload]
+
+NetworkManager="*res://Scripts/Network/network_manager.gd"
+
 [display]
 
 window/size/viewport_width=576

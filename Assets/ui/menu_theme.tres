@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cr3lq5dlednv3"]
+
+[ext_resource type="FontFile" uid="uid://creiaggxid8b2" path="res://Assets/ui/Impact - Strive.ttf" id="1_q6teo"]
+
+[resource]
+default_font = ExtResource("1_q6teo")
+default_font_size = 32
